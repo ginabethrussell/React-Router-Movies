@@ -35,7 +35,11 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
+@media(max-width: 500px){
+  .saved-list {
+    flex-direction: column;
+  }
+}
 .saved-list h3 {
   margin-right: 10px;
 }
@@ -43,7 +47,7 @@ body {
 .saved-movie {
   margin: 0 10px;
 }
-.saved-active {
+.saved-movie.active {
   color: blue;
   border: 1px solid grey;
   padding: 5px;
