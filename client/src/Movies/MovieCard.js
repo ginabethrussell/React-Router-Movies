@@ -12,6 +12,7 @@ export default function MovieCard (props) {
         <div className="movie-metascore">
           Metascore: <strong>{metascore}</strong>
         </div>
+        
         {stars && <>
           <h3>Actors</h3>
          
