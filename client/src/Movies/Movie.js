@@ -58,7 +58,7 @@ export default function Movie(props) {
           </div>
         ))}
       </div> */}
-        < MovieCard movie={movie} />
+        <MovieCard movie={movie} />
       <div onClick={saveMovie} className="save-button">Save</div>
     </div>
   );

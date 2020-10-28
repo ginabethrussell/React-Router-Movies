@@ -8,7 +8,7 @@ export default function SavedList(props) {
     <div className="saved-list">
       <h3>Saved Movies:</h3>
       {props.list.map(movie => (
-        <NavLink to={`/movie/${movie.id}`} className="saved-movie">{movie.title}</NavLink>
+        <NavLink to={`/movies/${movie.id}`} className="saved-movie">{movie.title}</NavLink>
       ))}
       <div className="home-button" onClick={() => {
         history.push('/');

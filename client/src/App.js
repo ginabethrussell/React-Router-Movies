@@ -45,7 +45,7 @@ export default function App () {
 
       {/* <div>Replace this Div with your Routes</div> */}
       <Switch>
-        <Route path='/movie/:id' render={() => 
+        <Route path='/movies/:id' render={() => 
           <Movie addToSavedList={addToSavedList}/>
         } />
 
